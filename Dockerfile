@@ -34,5 +34,6 @@ COPY . .
 EXPOSE 8080
 
 # Default command to run Odoo
-CMD ["odoo-bin", "-c", "odoo.conf", "--http-port=${PORT}"]
+CMD ["sh", "-c", "odoo-bin -c odoo.conf --http-port=${PORT:-8080}"]
+
 
