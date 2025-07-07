@@ -1,0 +1,80 @@
+/* Primary blues */
+body {
+    background-color: #e6f0ff;  /* very light blue */
+    color: #003366;             /* dark navy blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #0059b3; /* strong blue */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Links */
+a, a:visited {
+    color: #004080; /* medium dark blue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #66a3ff; /* bright blue */
+    text-decoration: underline;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #0073e6; /* standard blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #3399ff; /* lighter blue */
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #003366; /* dark navy */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #00264d; /* very dark blue */
+    color: #99ccff;            /* light blue */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cards or panels */
+.card {
+    background-color: #cce0ff; /* pale blue */
+    border: 1px solid #99bbff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0,51,102,0.2);
+}
+
+/* Forms inputs */
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid #66a3ff;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #3399ff;
+    outline: none;
+    box-shadow: 0 0 5px #66a3ff;
+}
+

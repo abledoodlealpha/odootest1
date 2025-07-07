@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="blue_theme_assets" inherit_id="web.assets_frontend" name="Blue Theme Assets">
+    <xpath expr="." position="inside">
+      <link rel="stylesheet" href="/bluetheme/static/src/css/style.css"/>
+    </xpath>
+  </template>
+</odoo>
+
